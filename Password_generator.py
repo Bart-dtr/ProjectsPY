@@ -21,5 +21,5 @@ haslo = ''.join(losowe_znaki)
 print()
 print(haslo)
 print()
-print('xD')
-print('xD')
+
+
