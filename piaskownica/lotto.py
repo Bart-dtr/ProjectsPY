@@ -1,7 +1,7 @@
 
 import random
 
-# this value described how many numbers should be choosed 5 among 42
+# this value described how many numbers should be choosed 5 among 42.
 n_num = 5
 
 # this is list of numbers which are involved in the raffle
