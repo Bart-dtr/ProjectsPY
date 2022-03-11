@@ -1,6 +1,22 @@
 
 import random
 
+n_num = 5 
+mini = list(range(1, 43))
+rand_digits = random.sample(mini, n_num)
+
+        
+n_num1 = 6
+mid = list(range(1, 50))
+rand_digits1 = random.sample(mid, n_num1)
+
+n_num2 = 10
+multi =list(range(1, 81))
+rand_digits2 = random.sample(multi, n_num2)
+
+print(rand_digits,rand_digits1,rand_digits2)
+
+"""
 # this value described how many numbers should be choosed 5 among 42.
 n_num = 5
 
@@ -51,3 +67,4 @@ lotto_list2 = random.sample(multi_list, n_num3)
 list2 = ''.join(lotto_list2)
 
 print('Multi Multi:',list2)
+"""
