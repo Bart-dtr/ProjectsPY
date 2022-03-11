@@ -4,8 +4,8 @@ gross = price * (1+tax/100)
 print("price gross:", gross)
 
 """
-Price_1_nett = 10000
-Price_2_nett = 5000
+Price_1_nett = 100000
+Price_2_nett = 50000
 
 TAX_1 = 23
 calculated_TAX_1 = (1 + TAX_1 / 100)
