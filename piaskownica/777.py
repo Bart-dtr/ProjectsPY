@@ -1,6 +1,6 @@
 import random
 
-# n-symbol described how many numbers have to choosed from list of symbols called content list
+# n-symbol described how many numbers have to choosed from list of symbols called content list.
 n_symbol = 3 
 content_list = ['7','7','7','7','$','$','$','$','!','!','!','!','0','0','0','0','3','3','3','3']
 
@@ -11,7 +11,7 @@ content_list = ['7','7','7','7','$','$','$','$','!','!','!','!','0','0','0','0',
 # 0 = 50 PLN
 # 3 = 5 PLN
 
-# choosing 3 symbols from content list and printing as 3 list
+# choosing 3 symbols from content list and printing as 3 list.
 win = random.sample(content_list, n_symbol)
 win1 = random.sample(content_list, n_symbol)
 win2 = random.sample(content_list, n_symbol)
@@ -20,7 +20,7 @@ print(win)
 print(win1)
 print(win2)
 
-# this part checking programm drew three the same symbols in the straight line  in print1, print2, print3 and printed how many $$ you won
+# this part checking programm drew three the same symbols in the straight line  in print1, print2, print3 and printed how many $$ you won.
 lucky_list = win [0], win [1], win [2]
 lucky_list1 = win1 [0], win1[1], win1[2]
 lucky_list2 = win2 [0], win2[1], win2[2]
@@ -65,7 +65,7 @@ if lucky_list2 == list_0:
 if lucky_list2 == list_3:
    print('you won 15 PLN')
 
-#This part checking if program drew three the same symbols in cross lines and printed how many $$ you won
+#This part checking if program drew three the same symbols in cross lines and printed how many $$ you won.
 
 if win[0] == '7'  and win1 [1] == '7' and win2 [2] == '7':
    print('you won 300 PLN')
